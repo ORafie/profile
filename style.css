@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+#main-title {
+  text-align: center;
+  font-size: 42px;
+  color: rgb(50, 50, 50);
+}
+
+.landing-page-link {
+  text-decoration: none;
+  font-size: 18px;
+  background-color: blue;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  font-weight: 900;
+}
+
+.shadow {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .5);
+}
+
+.white-box {
+  background-color: white;
+  width: 650px;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+body {
+  background-color: #EDE4E0;
+  font-family: 'Ubuntu', sans-serif;
+  color: #3C2317;
+}
+
+img {
+  width: 150px;
+  border-radius: 5px;
+  border-color: #3C2317;
+  border-width: 3px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  display: inline-block;
+  font-size: 54px;
+  margin: 18px;
+  color: rgb(200, 200, 200);
+}
+
+.list-item:hover {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+li {
+  display: inline-block;
+  background-color: bisque;
+  text-align: center;
+  padding: 5px;
+  margin: 12px;
+  width: 100px;
+}
+
+ul {
+  margin: 0 auto;
+  width: 100%;
+}
